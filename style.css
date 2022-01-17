@@ -1,0 +1,37 @@
+#sbar:checked+ #side{
+    display: block;
+
+}
+#side{
+    display: none;
+}
+#sbar{
+    display: none;
+}
+#cartes{
+    display: none;
+}
+#row{
+    display: block;
+}
+@media screen and (max-width: 800px) {
+    body{
+        width: 100%;
+        position: relative;
+    }
+    #side {
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+    }
+    #ret{
+        z-index: 2;
+    }
+    #cartes{
+        display: block;
+    }
+    #row{
+        display: none;
+    }
+}

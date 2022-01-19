@@ -1,10 +1,4 @@
-#sbar:checked+ #side{
-    display: block;
 
-}
-#side{
-    display: none;
-}
 #sbar{
     display: none;
 }
@@ -15,6 +9,12 @@
     display: block;
 }
 @media screen and (max-width: 800px) {
+    #sbar:checked+ #side{
+        display: block;
+    }
+    #side{
+        display: none;
+    }
     body{
         width: 100%;
         position: relative;

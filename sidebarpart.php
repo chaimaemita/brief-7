@@ -18,7 +18,7 @@
             <li><a class="nav-link text-dark" href="#"><i class="bi bi-file-earmark-bar-graph"><span id="cont">Report</span></i></a></li>
             <li><a class="nav-link text-dark" href="#"><i class="bi bi-sliders"><span id="cont">Settings</span></i></a></li>
           </ul>
-          <a class="nav-link text-dark  mt-4 ms-4  text-center" href="index.html"><span id="cont">Logout</span><i class="bi bi-box-arrow-right"></i></a>
+          <a class="nav-link text-dark  mt-4 ms-4  text-center" href="index.php"><span id="cont">Logout</span><i class="bi bi-box-arrow-right"></i></a>
         </div>
       </div>
       </div>

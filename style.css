@@ -1,10 +1,3 @@
-#sbar:checked+ #side{
-    display: block;
-
-}
-#side{
-    display: none;
-}
 #sbar{
     display: none;
 }
@@ -14,7 +7,40 @@
 #row{
     display: block;
 }
+@media screen and (max-width: 1120px){
+    #da{
+        display: none;
+    }
+}
+@media screen and (max-width: 986px){
+    #cont{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 862px){
+    #cartes{
+        display: block;
+    }
+    #row{
+        display: none;
+    }
+}
+@media screen and (max-width: 823px){
+    #logo{
+        font-size: large;
+    }
+}
 @media screen and (max-width: 800px) {
+    #sbar:checked+ #side{
+        display: block;
+    }
+    #side{
+        display: none;
+    }
+    #cont{
+        display: inline;
+    }
     body{
         width: 100%;
         position: relative;

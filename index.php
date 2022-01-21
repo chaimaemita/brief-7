@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     
 </head>
-
 <body  style="background: linear-gradient(69.66deg, #00C1FE 19.39%, #FAFFC1 96.69%); padding: 5%; overflow-y: hidden; height: 100vh; min-width: 150px;">
     <div class=" p-3 style shadow-sm bg-white  container-fluid w-25 mx-auto" style="border-radius: 3%; min-width: 300px;">
         <main>
@@ -23,19 +22,18 @@
             <form>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email" aria-describedby="emailHelp">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email" aria-describedby="exampleInputEmail1">
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label">Password</label>
                   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
                 </div>
-                <a class="w-100 text-white btn btn-info" href="sidebar.html" role="button">SIGN IN</a>
+                <a class="w-100 text-white btn btn-info" href="dashboard.php" role="button">SIGN IN</a>
                 <p class="mb-3 text-center pt-4 text-muted" style="font-size: 70%; ">Forgot your password? <a href="#" style="color: #00C1FE;"> Reset Password</a></p>
             </form>
               
         </main>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
